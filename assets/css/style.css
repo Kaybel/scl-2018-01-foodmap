@@ -3,9 +3,21 @@ body{
 }
 .tittleIndex{
   color: rgb(230, 158, 3);
-  position: fixed;
-  bottom: 40%;
-  left: 25%;
+  text-align: center;
+  margin-top: 80%;
+  padding: 0%;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
+.tittleIndex2{
+  color: rgb(230, 158, 3);
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+#map {
+  height: 200px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
