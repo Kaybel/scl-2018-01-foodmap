@@ -1,0 +1,11 @@
+body{
+  background-color: rgb(55, 55, 55);
+}
+.tittleIndex{
+  color: rgb(230, 158, 3);
+  position: fixed;
+  bottom: 40%;
+  left: 25%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
