@@ -21,3 +21,33 @@ body{
   height: 200px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
  }
+ hr {
+  height: 2px;
+  border: 0;
+  background-color: white;
+}
+#icon{
+  background-color: rgb(55, 55, 55);
+  display: inline-block;
+  border: inherit;
+}
+input{
+  display: inline-block;
+}
+#img1{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: 10%;
+}
+#img{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+#img2{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: 23%;
+}
