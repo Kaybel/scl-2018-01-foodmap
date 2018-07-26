@@ -36,18 +36,71 @@ input{
 }
 #img1{
   display: inline-block;
-  width: 100px;
-  height: 100px;
   margin-left: 10%;
 }
 #img{
   display: inline-block;
-  width: 100px;
-  height: 100px;
 }
 #img2{
   display: inline-block;
-  width: 100px;
-  height: 100px;
   margin-left: 23%;
+}
+@media (min-width: 576px) { 
+  #img1{
+    width: 120px;
+    height: 120px;
+  }
+  #img{
+    width: 120px;
+    height: 120px;
+  }
+  #img2{
+    width: 120px;
+    height: 120px;
+    }
+}
+
+@media (min-width: 768px) { 
+  #img1{
+    width: 200px;
+    height: 200px;
+  }
+  #img{
+    width: 200px;
+    height: 200px;
+  }
+  #img2{
+    width: 200px;
+    height: 200px;
+    }
+}
+
+@media (min-width: 992px) { 
+  #img1{
+    width: 220px;
+    height: 220px;
+  }
+  #img{
+    width: 220px;
+    height: 220px;
+  }
+  #img2{
+    width: 220px;
+    height: 220px;
+    }
+}
+
+@media (min-width: 1200px) { 
+  #img1{
+    width: 325px;
+    height: 325px;
+  }
+  #img{
+    width: 325px;
+    height: 325px;
+  }
+  #img2{
+    width: 325px;
+    height: 325px;
+    }
 }

@@ -10,11 +10,12 @@ var platform = new H.service.Platform({
 // map center is in San Francisco, the zoom level is 10:
 // Obtain the default map types from the platform object:
 var defaultLayers = platform.createDefaultLayers();
+
 var map = new H.Map(
   document.getElementById('map'),
   defaultLayers.normal.map,
   {
-    zoom: 10,
+    zoom: 16,
     center: { lat: -33.4569397, lng: -70.6482697 }
   });
 
