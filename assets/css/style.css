@@ -26,13 +26,14 @@ body{
   border: 0;
   background-color: white;
 }
-#icon{
+.btn{
   background-color: rgb(55, 55, 55);
   display: inline-block;
-  border: inherit;
+  border-color: white;
+  color: white;
 }
 input{
-  display: inline-block;
+  width: 100vw;
 }
 #img1{
   display: inline-block;
